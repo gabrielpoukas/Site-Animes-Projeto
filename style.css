@@ -17,8 +17,7 @@ h1,h2 {
 
 }
 
-body,html{
-
+body{
 
 margin: 0;
 padding: 0;
@@ -26,6 +25,8 @@ color: black;
 font-family:var(--fonte1);
 word-wrap: break-word;
 overflow-wrap: break-word;
+
+
 }
 
 .normal{
@@ -33,32 +34,34 @@ overflow-wrap: break-word;
 
 width: 100%;
 margin: 0 auto;
+
 }
 
 main{
 
 
-    min-width: 400px;
-    max-width: 2000px;
+   
     display: block;
     background-color: white;
     
+    
 }
+
 
 .content1{
 
 width: 100%;
-min-width: 350px;
 max-width: 760px;
 margin: 0 auto;
 padding:  0 23px;
+
 }
 
 section.conteudo p{
 
 margin-bottom: 40px;
-font-size: 16px;
-margin: auto;
+font-size: 20px;
+
 
 }
 
@@ -66,6 +69,7 @@ section.conteudo:last-child{
 
 
 margin-bottom: 0;
+
 
 }
 
@@ -80,6 +84,8 @@ section.conteudo.module{
 
 padding: 40px 0;
 background-image: linear-gradient(to right,#E39184,#eedcd9);
+
+
 }
 
 section.conteudo.paralax{
@@ -92,6 +98,7 @@ width: 100%;
 position: relative;
 overflow: hidden;
 background-position: 50% 50%;
+
 }
 
 
@@ -118,28 +125,31 @@ section.conteudo.paralax1{
  background-size: cover;
  -webkit-background-size:cover;
  -moz-background-size:cover;
+
 }
 
 section.conteudo.paralax2{
 
-    background-image: url('imagens/kimetsu.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
+background-image: url('imagens/kimetsu.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+
 
 }
 
 
 section.conteudo.paralax3{
 
-    background-image: url('imagens/SNK.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
+background-image: url('imagens/SNK.png');
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+
     
     }
 
@@ -150,7 +160,7 @@ section.conteudo.paralax3{
 
         color: white;
         text-align: center;
-        font-size: 80px;
+        font-size: 90px;
         z-index: 50;
         text-transform: uppercase;
 

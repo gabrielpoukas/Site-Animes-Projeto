@@ -43,6 +43,7 @@ main{
    
     display: block;
     background-color: white;
+    overflow-x: hidden
     
     
 }

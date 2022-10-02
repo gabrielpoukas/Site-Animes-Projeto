@@ -160,13 +160,13 @@ background-repeat: no-repeat;
 
     section.conteudo.paralax4{
 
-        background-image: url('imagens/fire.jpg');
+        background-image: url('imagens/fire1.jpg');
         background-repeat: no-repeat;
          background-attachment: fixed;
          background-size: cover;
          -webkit-background-size:cover;
          -moz-background-size:cover;
-         background-position: right center;
+         background-position: center center;
         
             }
 

@@ -8,7 +8,7 @@
 
 --fonte1:'Poppins', sans-serif;
 --fonte2:'Roboto Condensed', sans-serif;
---fonte2: 4rem;
+
 
 
 }
@@ -186,7 +186,7 @@ background-repeat: no-repeat;
         text-transform: uppercase;
         font-family: var(--fonte2);
         font-weight: 400;
-        font-size: var(--fonte2);
+        font-size: 3rem;
 
 
     }

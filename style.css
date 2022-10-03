@@ -2,9 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 :root{
 
 --fonte1:'Poppins', sans-serif;
+--fonte2:'Roboto Condensed', sans-serif;
+--fonte2: 4rem;
+
+
 }
 
 
@@ -176,9 +182,10 @@ background-repeat: no-repeat;
 
         color: white;
         text-align: center;
-        font-size: 90px;
         z-index: 50;
         text-transform: uppercase;
+        font-family: var(--fonte2);
+        font-weight: 400;
 
 
     }
